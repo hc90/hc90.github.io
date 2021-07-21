@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://hc90.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 琛琛的博客
+subtitle: "噜啦啦"
+description: ""
+keywords: hc90, huangchen, 黄琛, 琛琛
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository: hc90/hc90.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -26,7 +26,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-05-03
+        start_date: 2021-07-21
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -35,10 +35,10 @@ components:
     word_count:
         enabled: true
     # 页面右上角，以及「关于」页面的二维码
-    # 修改图片请替换 assets/images/qrcode.jpg
+    # 修改图片请替换 assets/images/qrcode.png
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: 噜啦啦
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -49,12 +49,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: huangchen
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: hc90
+location: Qingdao, China
+email: sdysydz1@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -131,17 +131,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: hc90
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+      client_id: 1b5e515d6d1f902c975f
+      client_secret: b0ff338717eecf4a8880d418a6f26097ad7e320e
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: hc90
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 1b5e515d6d1f902c975f
+    clientSecret: b0ff338717eecf4a8880d418a6f26097ad7e320e
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
